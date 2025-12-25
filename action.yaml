@@ -18,8 +18,8 @@ runs:
     - name: Install lsfr
       shell: bash
       run: |
-        echo "Installing lsfr from github.com/st3v3nmw/lsfr@main"
-        go install "github.com/st3v3nmw/lsfr@main"
+        echo "Installing lsfr from go install github.com/st3v3nmw/lsfr/cmd/lsfr@latest"
+        go install github.com/st3v3nmw/lsfr/cmd/lsfr@latest
 
     - name: Run lsfr tests
       shell: bash

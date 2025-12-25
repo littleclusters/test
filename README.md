@@ -2,7 +2,7 @@
 
 _Build complex systems from scratch_
 
-A GitHub Action for testing [lsfr](https://github.com/st3v3nmw/lsfr) challenges in your CI/CD pipeline.
+A GitHub Action for testing [lsfr](https://lsfr.io) challenges in your CI/CD pipeline.
 
 ## Quick Start
 
