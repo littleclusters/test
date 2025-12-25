@@ -70,10 +70,8 @@ for stage in "${STAGES_TO_TEST[@]}"; do
 
   if lsfr test "$stage"; then
     PASSED_STAGES+=("$stage")
-    echo -e "${GREEN}✓ $stage PASSED${NC}"
   else
     FAILED_STAGES+=("$stage")
-    echo -e "${RED}✗ $stage FAILED${NC}"
   fi
 done
 
