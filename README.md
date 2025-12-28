@@ -29,18 +29,4 @@ The action runs `lsfr test` on every push to main and on pull requests.
 
 ## Usage
 
-### Basic
-
-```yaml
-- uses: st3v3nmw/lsfr-action@main
-```
-
-### Custom Working Directory
-
-If your `lsfr.yaml` isn't at the repository root:
-
-```yaml
-- uses: st3v3nmw/lsfr-action@main
-  with:
-    working-directory: './my-challenge'
-```
+For the full usage documentation, please see [this guide](https://lsfr.io/guides/ci-cd/#github-actions).
